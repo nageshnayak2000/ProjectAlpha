@@ -1,8 +1,12 @@
-a{
-    color:black;
-    padding:15px;
+.main_menu li {
+    display: inline;
+    padding: 0px 18px 0 10px;
+    font-size: 15px;
 }
-/*comment*/
-a:hover{
-    color:black;
+
+.main_menu a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 4px;
 }
