@@ -1,0 +1,81 @@
+.footer {
+    background: black;
+    color:white;
+    height: 500px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.footer .footer-content {
+    border: 1px solid black;
+    background: black;
+    color: brown;
+    height: 450px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+.footer .footer-content .footer-section {
+    flex: 1;
+    border: 1px solid black;
+    padding: 25px;
+}
+.footer .footer-bottom {
+    background: black;
+    color: brown;
+    height: 70px;
+    width: 100%;
+    text-align: center ;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.footer .footer-content h1 {
+    color: white;
+    text-align: left;
+}
+.footer .footer-content .about p span {
+    color: white;
+    font-weight: bold;
+}
+.footer .footer-content .about {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+.footer .footer-content h2 {
+    color: white;
+    text-align: left;
+}
+.footer .footer-content .our-products ul a {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    list-style: none;
+    padding-left: 0;
+}
+.footer .footer-content .quick-links ul a {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    list-style: none;
+    padding-left: 0;
+}
+.footer .footer-content .contact-us p span {
+    color: white;
+    font-weight: bold;
+}
+.footer .footer-content .contact-us p {
+    color: white;
+    text-align: left;
+}
