@@ -1,82 +1,74 @@
 .footer {
     background: black;
     color:white;
-    height: 500px;
+    height: 600px;
     position: relative;
+    bottom: 0px;
     padding-left: 20px;
     padding-right: 40px;
+    overflow: hidden;
+    display: block;
 }
 .footer .footer-content {
-    border: 1px solid black;
     background: black;
     color: brown;
-    height: 450px;
+    height: 600px;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    text-align: center;
+    text-align: left;
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
 }
-.footer .footer-content .footer-section {
-    flex: 1;
-    border: 1px solid black;
-    padding: 25px;
+.footer-items {
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.footer-items p span {
+    color: white;
+    font-weight: bold;
+}
+.footer-items {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+}
+.footer-items ul a {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
 }
 
-.footer .footer-content h1 {
-    color: white;
-    text-align: left;
-}
-.footer .footer-content .about p span {
-    color: white;
-    font-weight: bold;
-}
-.footer .footer-content .about {
-    color: white;
-    text-align: left;
-    font-size: 15px;
-}
-.footer .footer-content h2 {
-    color: white;
-    text-align: left;
-}
-.footer .footer-content .our-products ul a {
-    color: white;
-    text-align: left;
-    font-size: 15px;
-    text-decoration: none;
-    display: block;
-    padding: 8px;
-    list-style: none;
-    padding-left: 0;
-}
-.footer .footer-content .quick-links ul a {
-    color: white;
-    text-align: left;
-    font-size: 15px;
-    text-decoration: none;
-    display: block;
-    padding: 8px;
-    list-style: none;
-    padding-left: 0;
-}
-.footer .footer-content .contact-us p span {
-    color: white;
-    font-weight: bold;
-}
-.footer .footer-content .contact-us p {
-    color: white;
-    text-align: left;
-}
 .footer .footer-bottom {
     background: black;
     color: brown;
-    height: 70px;
+    height: 50px;
     width: 100%;
+    overflow: hidden;
     text-align: center ;
+    position: absolute;
     bottom: 0px;
     left: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 25px;
+}
+@media (max-width: 75%) {
+    .footer-items {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 50%) {
+    .footer-items {
+        width: 100%;
+    }
 }
