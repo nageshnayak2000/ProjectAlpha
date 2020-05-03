@@ -3,34 +3,23 @@
   padding: 0px 18px 0 10px;
   font-size: 15px;
 }
-.motto  {
-    font-family: 'Satisfy', cursive;
-    font-size: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    padding: 4px;
-  }
+.motto {
+  font-family: "Satisfy", cursive;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+}
 .main_menu a {
   text-align: center;
   text-decoration: none;
   color: black;
   padding: 4px;
 }
-header{
-    font-family: 'Cormorant Garamond', serif;
-    text-align: center;
-    padding-top: 35px;
-    font-size: 40px;
-}
-.prod{
-    background-color: black;
-    color:white;
-}
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height:375px;
+header {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 40px;
 }
