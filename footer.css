@@ -23,17 +23,7 @@
     border: 1px solid black;
     padding: 25px;
 }
-.footer .footer-bottom {
-    background: black;
-    color: brown;
-    height: 70px;
-    width: 100%;
-    text-align: center ;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 20px;
-    font-size: 25px;
-}
+
 .footer .footer-content h1 {
     color: white;
     text-align: left;
@@ -78,4 +68,15 @@
 .footer .footer-content .contact-us p {
     color: white;
     text-align: left;
+}
+.footer .footer-bottom {
+    background: black;
+    color: brown;
+    height: 70px;
+    width: 100%;
+    text-align: center ;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    font-size: 25px;
 }

@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    width: 1300px;
+    height: 550px;
+    margin: 240px auto;
+    background: black;
+}
+.container .container-box {
+    display: flex;
+    height: 550px;
+}
+.container .container-box .container-section {
+    flex: 1;
+    padding: 27px;
+}
+.container .container-box h1 {
+    text-align: center;
+    color: white;
+    padding: 27px;
+}
+.container .container-box {
+    text-align: center;
+    color: white;
+    padding: 27px;
+}
+.container .container-box .form {
+    color: white;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+.container .container-box .form input{
+    padding: 5px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.container .container-box .form {
+    padding: 15px;
+}
+.container .container-box .form .row200 {
+    padding: 15px;
+}
+.container .container-box .form .row300 {
+    padding: 15px;
+}
+.container .container-box .form .row400 {
+    padding: 15px;
+}
+.container .container-box .form .btn {
+    padding: 5px;
+    background: white;
+    color: black;
+    width: 400px;
+}
