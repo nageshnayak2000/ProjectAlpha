@@ -26,6 +26,8 @@
     padding: 10px 20px;
     box-sizing: border-box;
     overflow: hidden;
+    font-family: "Cormorant Garamond", serif;
+
 }
 .footer-items p span {
     color: white;
@@ -36,6 +38,8 @@
     text-align: left;
     font-size: 15px;
     overflow: hidden;
+    font-family: "Cormorant Garamond", serif;
+
 }
 .footer-items ul a {
     color: white;
@@ -47,6 +51,8 @@
     list-style: none;
     padding-left: 0;
     overflow: hidden;
+    font-family: "Cormorant Garamond", serif;
+
 }
 
 .footer .footer-bottom {
