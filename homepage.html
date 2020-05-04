@@ -30,11 +30,13 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="homepage.css" />
     <link rel="stylesheet" href="scrollable.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="contactus.css" />
     <link rel="stylesheet" href="OurProducts.css" />
+    <link rel="stylesheet" href="infinite-slider.css" />
   </head>
   <body>
     <div id="wrapper">
@@ -66,7 +68,7 @@
       <!-- wrapper div starts -->
 
       <div class="fixed-bg bg-1">
-        <h1>MORE THAN 25 YEARS OF EXPERIENCE</h1>
+        <h1>MORE THAN 25 YEARS OF EXPERIENCE <br><BR> IN MINING AND QUARRY SCREENS</h1>
       </div>
 
       <div class="scroll-bg">
@@ -92,7 +94,7 @@
     <br />
 
     <!-- Our Products and cards -->
-    <div style="background-color: black;">
+    <div style="background-color: black; height:1290px;">
       <br />
       <br />
       <h1
@@ -111,7 +113,7 @@
         
           <div class="row">
             <div class="col-md-6">
-              <div class="img-hover-zoom">
+              <div class="img-hover-zoom img-hover-zoom--slowmo">
                 <img
                   alt="Web Studio"
                   class="img-fluid"
@@ -140,7 +142,7 @@
         
           <div class="row">
             <div class="col-md-6">
-              <div class="img-hover-zoom">
+              <div class="img-hover-zoom img-hover-zoom--slowmo">
                 <img
                   alt="Web Studio"
                   class="img-fluid"
@@ -163,14 +165,24 @@
       </section>
       <br />
       <br />
-      <br>
       <header>
-          <h1><a href="#" style="color:white;">See All..</a></h1>
+          <h3><a href="#" class="bounce"style="color:white;position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: 0.2s;
+            display: inline-block;
+            margin: 0 20px;
+            text-decoration: none;">See All..</a></h3>
       </header>
       <br>
       <br>
       <br>
     </div>
+    <!-- Our Products Ends -->
+
+    
+
+
 
     <!-- Contact Us -->
     <div class="container ">
@@ -300,5 +312,6 @@
     <script>
       AOS.init();
     </script>
+    
   </body>
 </html>
