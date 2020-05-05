@@ -1,0 +1,45 @@
+.main_menu li {
+  display: inline;
+  padding: 0px 18px 0 10px;
+  font-size: 15px;
+}
+.motto {
+  font-family: "Satisfy", cursive;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+}
+.main_menu a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+}
+header {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 55px;
+}
+.img-hover-zoom {
+    height: 300px; /* Modify this according to your need */
+    overflow: hidden; /* Removing this will break the effects */
+  }
+
+  .img-hover-zoom--slowmo img {
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: brightness(110%);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--slowmo:hover img {
+    filter: brightness(100%);
+    transform: scale(1.2);
+  }
+
+  a.bounce:hover{
+    padding-bottom: 20px;
+  }
