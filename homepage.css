@@ -95,6 +95,7 @@ header {
     .rc_nav.responsive .icon {
       position: fixed;
       right: 0;
+      top: 113px;
     }
     .rc_nav.responsive a {
       float: none;
