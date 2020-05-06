@@ -32,6 +32,8 @@
       crossorigin="anonymous"
     />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="homepage.css" />
     <link rel="stylesheet" href="scrollable.css" />
     <link rel="stylesheet" href="footer.css" />
@@ -45,24 +47,32 @@
       <header>
         MAHAVEERA INDUSTRIES
       </header>
-      <nav
-        style="
-          font-family: Arial, Helvetica, sans-serif;
-          display: block;
-          text-align: center;
-          padding-top: 20px;
-          padding-bottom: 20px;
-        "
-      >
-        <ul class="main_menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Clientel</a></li>
-          <li><a href="#">Quality Control</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Catalogue</a></li>
-        </ul>
-      </nav>
+      <div class="rc_nav" id="centered_nav">
+        <a href="index.html">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Clientel</a>
+        <a href="#">Quality Control</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Catalogue</a>
+        <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+    </div>
+
+    
+
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("centered_nav");
+          if (x.className === "rc_nav") {
+              x.className += " responsive";
+          } else {
+              x.className = "rc_nav";
+          }
+        }
+      </script>
+
     </div>
     <!-- Fixed Scrollable -->
     <div class="wrapper">
