@@ -65,19 +65,75 @@
   padding-top: 10px;
   font-size: 25px;
 }
-@media (max-width: 75%) {
+/*medium screen done*/
+@media screen and (max-width: 1180px) {
+  .footer-items {
+    width: 25%;
+  }
+  .footer {
+    height: 500px;
+  }
+  .footer .footer-content {
+    height: 500px;
+  }
+}
+/*done*/
+@media screen and (max-width: 1150px) {
   .footer-items {
     width: 50%;
   }
+  .footer {
+    height: 700px;
+  }
+  .footer .footer-content {
+    height: 700px;
+  }
 }
-@media screen and (max-width: 50%) {
+/*done*/
+@media screen and (max-width: 900px) {
+  .footer-items {
+    width: 50%;
+  }
+  .footer {
+    height: 800px;
+  }
+  .footer .footer-content {
+    height: 800px;
+  }
+}
+/*phone done*/
+@media screen and (max-width: 700px) {
   .footer-items {
     width: 100%;
   }
+  .footer {
+    height: 1300px;
+  }
+  .footer .footer-content {
+    height: 1300px;
+  }
+  .footer-items ul {
+    height: 180px;
+  }
 }
+/*phone done*/
+@media screen and (max-width: 440px) {
+  .footer-items {
+    width: 100%;
+  }
+  .footer {
+    height: 1400px;
+  }
+  .footer .footer-content {
+    height: 1400px;
+  }
+  .footer-items ul {
+    height: 190px;
+  }
+}
+/*stops working at 355px*/
 
-
-
+/*social icons*/
 .fa {
   padding: 10px;
   font-size: 25px;
