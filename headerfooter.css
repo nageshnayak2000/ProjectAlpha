@@ -120,22 +120,18 @@
   padding-top: 20px;
 }
 .footer-items {
-  width: 25%;
+  width: 33.3%;
   padding: 10px 20px;
   box-sizing: border-box;
+  color: white;
+  text-align: left;
+  font-size: 15px;
   overflow: hidden;
   font-family: sans-serif;
 }
 .footer-items p span {
   color: white;
   font-weight: bold;
-}
-.footer-items {
-  color: white;
-  text-align: left;
-  font-size: 15px;
-  overflow: hidden;
-  font-family: sans-serif;
 }
 .footer-items ul a {
   color: white;
@@ -145,7 +141,7 @@
   display: block;
   padding: 8px;
   list-style: none;
-  padding-left: 0;
+  padding-left: 40px;
   overflow: hidden;
   font-family: sans-serif;
 }
