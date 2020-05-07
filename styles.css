@@ -1,3 +1,8 @@
+.wrapper-slide{
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
 .slider {
     width: 1000px;
     height: 100px;
