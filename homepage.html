@@ -8,9 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
       rel="stylesheet"
@@ -118,7 +116,7 @@
         "
       >
         Our Products
-    </div>
+      </div>
     <br>
     <br>
     <br>
@@ -193,48 +191,36 @@
       <br>
       <br>
     </div>
+
+    <br>
+    <br>
     
     <!-- Our Products Ends -->
 
-    
-    <div class="brands">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="brands_slider_container">
-                        <div class="owl-carousel owl-theme brands_slider">
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="LAMBUJA.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="LBAJAJ.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_4.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_5.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_3.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_6.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_7.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_8.jpg" alt=""></div>
-                            </div>
-                        </div> <!-- Brands Slider Navigation -->
-                        <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
-                        <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
-                    </div>
-                </div>
-            </div>
+    <div class="wrapper">
+        <div class="slider">
+          <div class="slide">
+            <img src="LAMBUJA.jpg" />
+            <img src="LBIRLA.jpg" />
+            <img src="LFORCE.png" />
+            <img src="LTATA.jpg" />
+            <img src="lessarsteel.png" />
+            <img src="LNALCO.png" />
+            <img src="LNTPC.png" />
+          </div>
+          <div class="slide">
+            <img src="logo1.png" />
+            <img src="logo2.png" />
+            <img src="logo3.png" />
+            <img src="logo4.png" />
+            <img src="logo5.png" />
+            <img src="logo6.png" />
+            <img src="logo7.png" />
+          </div>
         </div>
     </div>
+    
+
 
 
     <!-- Contact Us -->
@@ -361,7 +347,7 @@
       </div>
     </div>
     <!-- Footer Ends -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -381,46 +367,6 @@
     <script>
       AOS.init();
     </script>
-    <script>
-        $(document).ready(function(){
-
-if($('.brands_slider').length)
-{
-var brandsSlider = $('.brands_slider');
-
-brandsSlider.owlCarousel(
-{
-loop:true,
-autoplay:true,
-autoplayTimeout:5000,
-nav:false,
-dots:false,
-autoWidth:true,
-items:8,
-margin:42
-});
-
-if($('.brands_prev').length)
-{
-var prev = $('.brands_prev');
-prev.on('click', function()
-{
-brandsSlider.trigger('prev.owl.carousel');
-});
-}
-
-if($('.brands_next').length)
-{
-var next = $('.brands_next');
-next.on('click', function()
-{
-brandsSlider.trigger('next.owl.carousel');
-});
-}
-}
-
-
-});
-    </script>
+    
   </body>
 </html>
