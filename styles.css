@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   animation: slideshow 30s linear infinite;
+  animation-delay: 10s;
 }
 .slide img {
   height: 70px;
