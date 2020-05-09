@@ -119,6 +119,9 @@
   left: 0px;
   padding-top: 20px;
 }
+.footer-items h2 {
+  padding-left: 60px;
+}
 .footer-items {
   width: 33.3%;
   padding: 10px 20px;
