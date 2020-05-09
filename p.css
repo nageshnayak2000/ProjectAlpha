@@ -1,6 +1,6 @@
-body{
+/* body{
             background: #262626;
-        }
+        } */
 
 .btn.btn-danger:hover{
     background-color: black;
@@ -14,17 +14,19 @@ body{
 
         .section-heading {
             text-align: center;
-            color: #fff;
+            color: black;
             margin-bottom: 50px;
             text-transform: uppercase;
-            font-size: 65px;
+            font-size: 35px;
             font-family: bignoodletitling;
             letter-spacing: 5px;
         }
 
 .team-area .card {
-    border: none;
+    border:none;
     background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .img-area{
     width: 150px;
@@ -78,11 +80,11 @@ body{
 
 .side-two .card a {
     font-size: 18px;
-    color: brown !important;
+    color: black;
 }
 
 h4 {
-    color:brown !important;
+    color:black;
     font-family: BigNoodleTitling;
     letter-spacing: 5px;
     font-size: 25px;
@@ -96,3 +98,67 @@ p{
     height: 120px;
     border-radius: 50%;
 }
+header {
+    font-family: "Cormorant Garamond", serif;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 55px;
+  }
+  /* Responsive Navbar  */
+  .rc_nav {
+    overflow: hidden;
+    text-align: center;
+    z-index: 6;
+  }
+  .rc_nav a {
+   display: inline-block;
+   margin-right: -4px;  /* inline-block gap fix */
+   color: black;
+   padding: 15px 15px;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   -webkit-transition: background 0.3s linear;
+   -moz-transition: background 0.3s linear;
+   -ms-transition: background 0.3s linear;
+   -o-transition: background 0.3s linear;
+   transition: background 0.3s linear;
+   z-index: 9;
+  }
+  
+  
+  .rc_nav .icon {
+    display: none;
+  }
+  
+  .rc_content {
+    text-align: center; 
+    padding-left:14px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 100px;  
+    color: #8e909b;
+  }
+  
+  
+  @media screen and (max-width: 820px) {
+    .rc_nav a {display: none;}
+    .rc_nav a.icon {
+      float: right;
+      display: block;
+      width: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 820px) {
+    .rc_nav.responsive {position: relative; top: 10px;}
+    .rc_nav.responsive .icon {
+      float: right;
+      display: block;
+    }
+    .rc_nav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  
+  }
+/* Responsive Navbar ends */
