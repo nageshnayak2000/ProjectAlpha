@@ -6,3 +6,8 @@
   display: -ms-flexbox !important;
   display: flex !important;
 }
+@media screen and (max-width: 500px) {
+  #opcontainer {
+    height: 1350px;
+  }
+}

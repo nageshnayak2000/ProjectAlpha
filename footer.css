@@ -1,7 +1,7 @@
 .footer {
   background: black;
   color: white;
-  height: 450px;
+  height: 420px;
   position: relative;
   bottom: 0px;
   padding-left: 20px;
@@ -12,7 +12,7 @@
 .footer .footer-content {
   background: black;
   color: brown;
-  height: 450px;
+  height: 420px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -72,25 +72,25 @@
 /*medium screen done*/
 @media screen and (max-width: 1180px) {
   .footer-items {
-    width: 25%;
+    width: 50%;
   }
   .footer {
-    height: 500px;
+    height: 440px;
   }
   .footer .footer-content {
-    height: 500px;
+    height: 440px;
   }
 }
 /*done*/
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1100px) {
   .footer-items {
     width: 50%;
   }
   .footer {
-    height: 700px;
+    height: 460px;
   }
   .footer .footer-content {
-    height: 700px;
+    height: 460px;
   }
 }
 /*done*/
@@ -99,41 +99,42 @@
     width: 50%;
   }
   .footer {
-    height: 800px;
+    height: 470px;
   }
   .footer .footer-content {
-    height: 800px;
+    height: 470px;
   }
 }
 /*phone done*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .footer-items {
     width: 100%;
   }
   .footer {
-    height: 1300px;
+    height: 750px;
   }
   .footer .footer-content {
-    height: 1300px;
-  }
-  .footer-items ul {
-    height: 180px;
+    height: 750px;
   }
 }
 /*phone done*/
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 500px) {
   .footer-items {
     width: 100%;
   }
   .footer {
-    height: 1400px;
+    height: 1000px;
   }
   .footer .footer-content {
-    height: 1400px;
+    height: 1000px;
   }
-  .footer-items ul {
-    height: 190px;
+  .footer-links {
+    width: 100%;
   }
+  .footer-items h2 {
+    padding-left: 15px;
+  }
+  
 }
 /*stops working at 355px*/
 
