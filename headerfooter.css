@@ -96,187 +96,191 @@
     }
   /* Responsive Navbar ends */
 
-.footer {
-  background: black;
-  color: white;
-  height: 450px;
-  position: relative;
-  bottom: 0px;
-  padding-left: 20px;
-  padding-right: 40px;
-  overflow: hidden;
-  display: block;
-}
-.footer .footer-content {
-  background: black;
-  color: brown;
-  height: 450px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  text-align: left;
-  bottom: 0px;
-  left: 0px;
-  padding-top: 20px;
-}
-.footer-items h2 {
-  padding-left: 60px;
-}
-.footer-items {
-  width: 33.3%;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  color: white;
-  text-align: left;
-  font-size: 15px;
-  overflow: hidden;
-  font-family: sans-serif;
-}
-.footer-items p span {
-  color: white;
-  font-weight: bold;
-}
-.footer-items ul a {
-  color: white;
-  text-align: left;
-  font-size: 15px;
-  text-decoration: none;
-  display: block;
-  padding: 8px;
-  list-style: none;
-  padding-left: 40px;
-  overflow: hidden;
-  font-family: sans-serif;
-}
-
-.footer .footer-bottom {
-  background: black;
-  color: brown;
-  height: 50px;
-  width: 100%;
-  overflow: hidden;
-  text-align: center;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  padding-top: 10px;
-  font-size: 25px;
-}
-/*medium screen done*/
-@media screen and (max-width: 1180px) {
-  .footer-items {
-    width: 25%;
-  }
   .footer {
-    height: 500px;
+    background: black;
+    color: white;
+    height: 450px;
+    position: relative;
+    bottom: 0px;
+    padding-left: 20px;
+    padding-right: 40px;
+    overflow: hidden;
+    display: block;
   }
   .footer .footer-content {
-    height: 500px;
-  }
-}
-/*done*/
-@media screen and (max-width: 1150px) {
-  .footer-items {
-    width: 50%;
-  }
-  .footer {
-    height: 700px;
-  }
-  .footer .footer-content {
-    height: 700px;
-  }
-}
-/*done*/
-@media screen and (max-width: 900px) {
-  .footer-items {
-    width: 50%;
-  }
-  .footer {
-    height: 800px;
-  }
-  .footer .footer-content {
-    height: 800px;
-  }
-}
-/*phone done*/
-@media screen and (max-width: 700px) {
-  .footer-items {
+    background: black;
+    color: brown;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    text-align: left;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
   }
-  .footer {
-    height: 1300px;
-  }
-  .footer .footer-content {
-    height: 1300px;
-  }
-  .footer-items ul {
-    height: 180px;
-  }
-}
-/*phone done*/
-@media screen and (max-width: 440px) {
   .footer-items {
+    width: 33.3%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  .footer-items p span {
+    color: white;
+    font-weight: bold;
+  }
+  .footer-items {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  .footer-items ul a {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  /*copyright*/
+  .footer .footer-bottom {
+    background: black;
+    color: brown;
+    height: 50px;
     width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+    font-size: 25px;
   }
-  .footer {
-    height: 1400px;
+  
+  /*medium screen done*/
+  @media screen and (max-width: 1180px) {
+    .footer-items {
+      width: 50%;
+    }
+    .footer {
+      height: 600px;
+    }
+    .footer .footer-content {
+      height: 600px;
+    }
   }
-  .footer .footer-content {
-    height: 1400px;
+  /*done*/
+  @media screen and (max-width: 1100px) {
+    .footer-items {
+      width: 50%;
+    }
+    .footer {
+      height: 460px;
+    }
+    .footer .footer-content {
+      height: 460px;
+    }
   }
-  .footer-items ul {
-    height: 190px;
+  /*done*/
+  @media screen and (max-width: 900px) {
+    .footer-items {
+      width: 50%;
+    }
+    .footer {
+      height: 470px;
+    }
+    .footer .footer-content {
+      height: 470px;
+    }
   }
-}
-/*stops working at 355px*/
-
-/*social icons*/
-.fa {
-  padding: 10px;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-}
-.fa:hover {
-  text-decoration: none;
-}
-.fa-facebook {
-  background: black;
-  color: white;
-}
-
-.fa-twitter {
-  background: black;
-  color: white;
-}
-.fa-google {
-  background:black;
-  color: white;
-}
-
-.fa-rss {
-  background:black;
-  color: white;
-}
-.fa-facebook:hover {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter:hover {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google:hover {
-  background:#dd4b39;
-  color: white;
-}
-.fa-rss:hover {
-  background:#ff6600;
-  color: white;
-}
+  /*phone done*/
+  @media screen and (max-width: 850px) {
+    .footer-items {
+      width: 100%;
+    }
+    .footer {
+      height: 750px;
+    }
+    .footer .footer-content {
+      height: 750px;
+    }
+  }
+  /*phone done*/
+  @media screen and (max-width: 500px) {
+    .footer-items {
+      width: 100%;
+    }
+    .footer {
+      height: 1000px;
+    }
+    .footer .footer-content {
+      height: 1000px;
+    }
+    .footer-links {
+      width: 100%;
+    }
+    .footer-items h2 {
+      padding-left: 15px;
+    }
+    
+  }
+  /*stops working at 355px*/
+  
+  /*social icons*/
+  .fa {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+  }
+  .fa:hover {
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: black;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: black;
+    color: white;
+  }
+  .fa-google {
+    background:black;
+    color: white;
+  }
+  
+  .fa-rss {
+    background:black;
+    color: white;
+  }
+  .fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google:hover {
+    background:#dd4b39;
+    color: white;
+  }
+  .fa-rss:hover {
+    background:#ff6600;
+    color: white;
+  }
