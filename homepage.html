@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
       rel="stylesheet"
@@ -59,8 +61,14 @@
         <a href="#">Clientel</a>
         <a href="#">Quality Control</a>
         <a href="#">Contact Us</a>
-        <a href="#footer">Catalogue</a>
-        
+        <a href="#footer" class="scrollLink">Catalogue</a>
+        <script>
+        $(document).ready(function(){
+          $( "a.scrollLink" ).click(function( event ) {
+              event.preventDefault();
+              $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 2000);
+          });
+      });</script>
       </div>
 
     </div>
