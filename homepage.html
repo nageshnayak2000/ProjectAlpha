@@ -320,7 +320,7 @@
                   </p>
                   <p>WEBSITE : </span> www.wiremesh.co.in</p>
                   <br>
-                  <button type="button" class="btn btn-info"><a href="test.html" style="text-decoration: none;">Mail Us</a></button>
+                  <button type="button" class="btn btn-info"><a href="test.html" style="text-decoration: none; color: white;">Mail Us</a></button>
             </form>
           </div>
         </div>
@@ -360,6 +360,8 @@
         <div class="modal-body" style="color:black">
           <form id="form" target="_self" onsubmit="return post();"  autocomplete="off"> 
 
+            <p style="font-size: 18px; text-align: center; padding-bottom: 7px;">Fill in a few details to proceed to download.</p>
+            
             <label for="fname">Name</label>
             <input type="text"  id="nameField" name="entry.2008660880" placeholder="Your name..">
           
@@ -369,23 +371,21 @@
             <label for="country">Phone number</label>
             <input type="text" id="mobField" name="entry.904964149" placeholder="Phone Number..">
             
+<<<<<<< HEAD
+            <button type="submit" class="btn btn-info" style="margin-left: 190px; margin-top: 11px; margin-bottom: 11px;">Submit</button>
+=======
             <button type="submit" class="btn btn-info" style="margin-left: 190px; margin-top: 11px;">Submit</button>
+>>>>>>> 9df1c54bcd744bd806085ee3ff63bb35a41dd6d7
             
           </form>
-          <div id="download" style="display: none; margin-left: 100px ;">
+          <div id="download" style="display: none; ">
+            <p style="text-align: center; font-size: 18px; padding-bottom: 7px;">Click to download brochure</p>
           <a href="BROCHURE.pdf" download>
-            <button type="button" class="btn btn-info">Download</button>
+            <button type="button" style="margin-left: 180px ;" class="btn btn-info">Download</button>
           </a>
         </div>
         </div>
-        
-        <!-- Modal footer -->
-        
-        <div class="modal-footer" >
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          <!-- Download file code -->
-          
-        </div>
+      
       </div>
     </div>
   </div>
