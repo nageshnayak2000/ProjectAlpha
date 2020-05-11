@@ -29,11 +29,11 @@
 
 }
 .img-area{
-    width: 150px;
-    height: 150px;
-    display: inline-block;
+    width: 312px;
+    height: 190px;
+    /* display: inline-block; */
     overflow: hidden;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .team-single:hover .side-two {
     transform: rotateY(0deg);
@@ -94,9 +94,9 @@ p{
 }
 
 .side-one .card .card-body img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 320px;
+    height: 170px;
+    /* border-radius: 50%; */
 }
 header {
     font-family: "Cormorant Garamond", serif;
