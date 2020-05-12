@@ -58,7 +58,6 @@
         <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
         <a href="index.html">Home</a>
         <a href="#">Products</a>
-        <a href="#">Clientel</a>
         <a href="#">Quality Control</a>
         <a href="#">Contact Us</a>
         <a href="#footer" class="scrollLink">Brochure</a>
@@ -311,46 +310,7 @@
         </div>
       </div>
     </div>
-    <!-- EMail Modal -->
-    <div class="modal" id="emailModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          
-          <!-- Modal Header -->
-          <div class="modal-header" style="color:black">
-            <h4 class="modal-title">Email</h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-              
-          <!-- Modal body -->
-          <div class="modal-body" style="color:black">
-            <form id="form" target="_self"  action="" autocomplete="off"> 
-
-              <p style="font-size: 18px; text-align: center;">We will revert back to you within 24 hours</p>
-                  
-              <label for="email">Email</label>
-              <input id="email" type="email" value="wiremeshindia@gmail.com" style="margin-top:15px; font-family: times new roman;font-size: 20px; width:250px; height:30px;border-radius:5px;" readonly ></input><br><br>
-
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="Subject..">
-                
-              <label for="country">Message</label>
-              <input type="text" id="message" name="message" placeholder="Message..">
-      
-              <button type="button" id="send" onclick="send()" class="btn btn-info" style="margin-left: 190px; margin-top: 11px;">Send</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script>
-      function send() {
-        setTimeout(function() {
-          window.open("mailto:" + document.getElementById('email').value + "?subject=" + document.getElementById('subject').value + "&body=" + document.getElementById('message').value);
-        }, 320);
-      }
-    </script>
+    
 
       
 
