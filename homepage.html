@@ -72,28 +72,26 @@
       </div>
 
     </div>
-      <script>
-        function myFunction() {
-          var x = document.getElementById("centered_nav");
-          if (x.className === "rc_nav") {
-              x.className += " responsive";
-          } else {
-              x.className = "rc_nav";
-          }
+    <script>
+      function myFunction() {
+        var x = document.getElementById("centered_nav");
+        if (x.className === "rc_nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "rc_nav";
         }
-      </script>
+      }
+    </script>
     <!-- NavBar Ends-->
-    </div>
+    
     <!-- Fixed Scrollable -->
     <div class="wrapper">
       <!-- wrapper div starts -->
-
       <div class="fixed-bg bg-1">
         <h1>MORE THAN 25 YEARS OF EXPERIENCE <br><BR> IN MINING AND QUARRY SCREENS</h1>
       </div>
 
       <div class="scroll-bg">
-        <h3></h3>
       </div>
     </div>
     <!-- wrapper div ends -->
@@ -115,11 +113,7 @@
     <br />
 
     <!-- Our Products and cards -->
-  <div class="products" id="products" style="background-color: black; @media screen and (max-width: 900px) {
-    .products {
-      height: 1250px;
-    }
-  }">
+    <div class="products" id="products" style="background-color: black;">
       <br />
       <br />
       <div
@@ -132,8 +126,8 @@
         "
       >
         Our Products
-    </div>
-    <div class="container">
+      </div>
+      <div class="container">
 
         <section class="section mt-5">
           <div class="grid-flex" style="background-color: white;">
@@ -177,18 +171,18 @@
             </div>
           </div>
         </section>
-      <br />
-      <br />
-      <header>
-          <h3><a href="#" class="bounce"style="color:white;
-            margin: 0 20px;
-            text-decoration: none;" data-aos="fade-up">See All..</a></h3>
-      </header>
-      <br>
-      <br>
-      <br>
+        <br />
+        <br />
+        <header>
+            <h3><a href="#" class="bounce"style="color:white;
+              margin: 0 20px;
+              text-decoration: none;" data-aos="fade-up">See All..</a></h3>
+        </header>
+        <br>
+        <br>
+        <br>
+      </div>
     </div>
-  </div>
     <!-- Our Products Ends -->
 
     <!-- Slider -->
@@ -203,15 +197,15 @@
         "
       >
         Our Clients
-      </div>
-      <div data-aos="fade-up" data-aos-duration="1800" class="motto">
-        <h4>Successful Collaborations</h4>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="1800" class="motto">
+      <h4>Successful Collaborations</h4>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <section class="customer-logos slider">
       <div class="slide"><img src="ambuja.png"></div>
@@ -228,34 +222,33 @@
       <div class="slide"><img src="jsw.png"></div>
       <div class="slide"><img src="jkw.png"></div>
       <div class="slide"><img src="welspun.png"></div>
-      <div class="slide"><img src="iffco.png"></div>
-      
-   </section> 
+      <div class="slide"><img src="iffco.png"></div>    
+    </section> 
 
-   <script>
-    $(document).ready(function(){
-         $('.customer-logos').slick({
-             slidesToShow: 6,
-             slidesToScroll: 1,
-             autoplay: true,
-             autoplaySpeed: 1500,
-             arrows: false,
-             dots: false,
-             pauseOnHover: false,
-             responsive: [{
-                 breakpoint: 768,
-                 settings: {
-                     slidesToShow: 4
-                 }
-             }, {
-                 breakpoint: 520,
-                 settings: {
-                     slidesToShow: 3
-                 }
-             }]
-         });
-     });
-  </script>
+    <script>
+      $(document).ready(function(){
+          $('.customer-logos').slick({
+              slidesToShow: 6,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1500,
+              arrows: false,
+              dots: false,
+              pauseOnHover: false,
+              responsive: [{
+                  breakpoint: 768,
+                  settings: {
+                      slidesToShow: 4
+                  }
+              }, {
+                  breakpoint: 520,
+                  settings: {
+                      slidesToShow: 3
+                  }
+              }]
+          });
+      });
+    </script>
 
     <br>
     <br>
@@ -266,7 +259,7 @@
 
     <!-- Google Maps -->
     <div class="container" id="contactus">
-        <div style="
+      <div style="
             color: black;
             font-family: 'Cormorant Garamond', serif;
             text-align: center;
@@ -275,101 +268,87 @@
             padding-bottom: 50px;
             border-bottom:1px solid lightgrey;
           "
-        >
-          Reach Us
-        
+      >Reach Us
+      </div>
+      <div class="row">
+        <div class="column">
+          <div id="map" style="  margin: 10px; margin-bottom: 100px;" >
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+              <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+              <script>(function () {
+                  var setting = {"height":450,"width":610,"zoom":12,"queryString":"MAHAVEERA INDUSTRIES, MIDC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400701, India","place_id":"ChIJ32GiYli_5zsRBO9fYrEqsu4","satellite":false,"centerCoord":[19.14111215551181,73.00724720000001],"cid":"0xeeb22ab1625fef04","lang":"en","cityUrl":"/india/navi-mumbai-32471","cityAnchorText":"Map of Navi Mumbai, West Zone, India","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"203261"};
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://embedgooglemap.1map.com/js/script-for-user.js?embed_id=203261';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();</script><a href="https://embedgooglemap.1map.com">1 Map</a>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="column">
-            <div id="map" style="  margin: 10px;
-            margin-bottom: 100px;" >
-         <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
-            var setting = {"height":450,"width":610,"zoom":12,"queryString":"MAHAVEERA INDUSTRIES, MIDC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400701, India","place_id":"ChIJ32GiYli_5zsRBO9fYrEqsu4","satellite":false,"centerCoord":[19.14111215551181,73.00724720000001],"cid":"0xeeb22ab1625fef04","lang":"en","cityUrl":"/india/navi-mumbai-32471","cityAnchorText":"Map of Navi Mumbai, West Zone, India","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"203261"};
-          var d = document;
-          var s = d.createElement('script');
-          s.src = 'https://embedgooglemap.1map.com/js/script-for-user.js?embed_id=203261';
-          s.async = true;
-          s.onload = function (e) {
-            window.OneMap.initMap(setting)
-          };
-          var to = d.getElementsByTagName('script')[0];
-          to.parentNode.insertBefore(s, to);
-        })();</script><a href="https://embedgooglemap.1map.com">1 Map</a></div>
+        <div class="column" >
+          <form action="/action_page.php" style="font-size:15px">
+            <br>
+            <br>
+            <h2>Mahaveera Industries</h2>
+            <br>
+            <p><span>ADDRESS: </span> R-342, TTC INDUSTRIAL AREA, M. I. D. C,
+                    THANE-BELAPUR ROAD, RABALE, NAVI MUMBAI - 400701, MAHARASHTRA, INDIA</p>
+            <p><span>TEL: </span> 91-22-2769 1505 / 27604222</p>
+            <p><span>MOBILE : </span> +91 98201 05067</p>
+            <p><span>LANDLINE : </span>91 - 22 - 2769 2179</p>
+            <p><span>CONTACT :</span> MR. ASHOK JAIN</p>
+            <p><span>EMAIL :</span> wiremeshindia@gmail.com</p>
+            <p><span>WEBSITE : </span> www.wiremesh.co.in</p>
+            <br>
+            <button type="button" class="btn btn-info"  data-toggle="modal" data-target="#emailModal"  >Mail us</button>        
+          </form>
+
+        </div>
+      </div>
     </div>
-          </div>
-          <div class="column" >
-            <form action="/action_page.php" style="font-size:15px">
-                <br>
-                <br>
-                
-                
-                <h2>Mahaveera Industries</h2>
-                <br>
-                <p>
-                    <span>ADDRESS: </span> R-342, TTC INDUSTRIAL AREA, M. I. D. C,
-                    THANE-BELAPUR ROAD, RABALE, NAVI MUMBAI - 400701, MAHARASHTRA, INDIA
-                  </p>
-                  <p><span>TEL: </span> 91-22-2769 1505 / 27604222</p>
-                  <p><span>MOBILE : </span> +91 98201 05067</p>
-                  <p><span>LANDLINE : </span>91 - 22 - 2769 2179</p>
-                  <p><span>CONTACT :</span> MR. ASHOK JAIN</p>
-                  <p>
-                    <span>EMAIL :</span> wiremeshindia@gmail.com
-                    
-                  </p>
-                  <p>WEBSITE : </span> www.wiremesh.co.in</p>
-                  <br>
-                  <!-- <button type="button" class="btn btn-info"><a href="test.html" style="text-decoration: none; color: white;">Mail Us</a></button> -->
-         
-                  <button type="button" class="btn btn-info"  data-toggle="modal" data-target="#emailModal"  >Mail us</button>
-            
-                </form>
-
-          </div>
-        </div>
-      </div>
-      <!-- EMail Modal -->
-      <div class="modal" id="emailModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
+    <!-- EMail Modal -->
+    <div class="modal" id="emailModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
           
-            <!-- Modal Header -->
-            <div class="modal-header" style="color:black">
-              <h4 class="modal-title">Email</h4>
+          <!-- Modal Header -->
+          <div class="modal-header" style="color:black">
+            <h4 class="modal-title">Email</h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            
-            <!-- Modal body -->
-            <div class="modal-body" style="color:black">
-              <form id="form" target="_self"  action="" autocomplete="off"> 
-                
-                <label for="email">Email</label>
-                <input id="email" type="email" value="wiremeshindia@gmail.com" style="margin-top:40px; font-family: times new roman;font-size: 20px; width:250px; height:30px;border-radius:5px;" readonly ></input><br><br>
-
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" placeholder="Subject..">
+          </div>
               
-                <label for="country">Message</label>
-                <input type="text" id="message" name="message" placeholder="Message..">
-    
-                <button type="button" id="send" onclick="send()" class="btn btn-info" style="margin-left: 190px; margin-top: 11px;">Send</button>
-              </form>
-            </div>
-            
-            
-            
+          <!-- Modal body -->
+          <div class="modal-body" style="color:black">
+            <form id="form" target="_self"  action="" autocomplete="off"> 
+                  
+              <label for="email">Email</label>
+              <input id="email" type="email" value="wiremeshindia@gmail.com" style="margin-top:40px; font-family: times new roman;font-size: 20px; width:250px; height:30px;border-radius:5px;" readonly ></input><br><br>
+
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject..">
+                
+              <label for="country">Message</label>
+              <input type="text" id="message" name="message" placeholder="Message..">
+      
+              <button type="button" id="send" onclick="send()" class="btn btn-info" style="margin-left: 190px; margin-top: 11px;">Send</button>
+            </form>
           </div>
         </div>
       </div>
+    </div>
 
-      <script>
+    <script>
       function send() {
         setTimeout(function() {
           window.open("mailto:" + document.getElementById('email').value + "?subject=" + document.getElementById('subject').value + "&body=" + document.getElementById('message').value);
         }, 320);
       }
-      </script>
+    </script>
 
       
 
@@ -386,108 +365,101 @@
             equipment across the entire range of woven wire specifications.
           </p>
           <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-google"></a>
-            <a href="#" class="fa fa-rss"></a><br><br>
-            <p><span>Download Our Brochure :</span></p>
-            <button type="button" class="btn btn-info" id="brochure"  data-toggle="modal" data-target="#myModal"><i class="fa fa-file-pdf-o"></i>Brochure</button>
-          </div>
-          <!-- The Modal -->
-  <div class="modal" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header" style="color:black">
-          <h4 class="modal-title">Form</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-rss"></a><br><br>
+          <p><span>Download Our Brochure :</span></p>
+          <button type="button" class="btn btn-info" id="brochure"  data-toggle="modal" data-target="#myModal"><i class="fa fa-file-pdf-o"></i>Brochure</button>
         </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+      
+              <!-- Modal Header -->
+              <div class="modal-header" style="color:black">
+                <h4 class="modal-title">Form</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
         
-        <!-- Modal body -->
-        <div class="modal-body" style="color:black">
-          <form id="form" target="_self" onsubmit="return post();"  autocomplete="off"> 
-
-            <p style="font-size: 18px; text-align: center; padding-bottom: 7px;">Fill in a few details to proceed to download.</p>
-            
-            <label for="fname">Name</label>
-            <input type="text"  id="nameField" name="entry.2008660880" placeholder="Your name..">
-          
-            <label for="lname">E-mail</label>
-            <input type="text" id="emailField" name="entry.1460631936" placeholder="E-mail..">
-          
-            <label for="country">Phone number</label>
-            <input type="text" id="mobField" name="entry.904964149" placeholder="Phone Number..">
-            
-            <button type="submit" class="btn btn-info" style="margin-left: 190px; margin-top: 11px; margin-bottom: 11px;">Submit</button>
-            
-          </form>
-          <div id="download" style="display: none; ">
-            <p style="text-align: center; font-size: 18px; padding-bottom: 7px;">Click to download brochure</p>
-          <a href="BROCHURE.pdf" download>
-            <button type="button" style="margin-left: 180px ;" class="btn btn-info">Download</button>
-          </a>
-        </div>
-        </div>
-      
-      </div>
-    </div>
-  </div>
-  <a id="success-msg" href="BROCHURE.pdf" download></a>
-
-<script>
-  function post() {
-                  var field1 = $("#nameField").val();
-                  var field2 = $("#emailField").val();
-                  var field3 = $("#mobField").val();
-                  var field4 = $("#cinema option:selected").text();
-                  var a=true
-          if(field1 == ""){
-            alert('Please Fill Your Name');
-            document.getElementById("nameField").focus();
-            a=false
-            return false;
-          }
-          if(field2 == ""){
-            alert('Please Fill Your Email');
-            document.getElementById("emailField").focus();
-            a=false
-            return false;
-          }
-          if(field3 == "" || field3.length > 10 || field3.length < 10){
-            alert('Please Fill Your Mobile Number');
-            document.getElementById("mobField").focus();
-            a=false
-            return false;
-          }
-
-  
-  
-          
-    
-                  $.ajax({
-                      url: "https://docs.google.com/forms/d/e/1FAIpQLSfNOrntSNTfveuoSHIEHr9sa8PIAemsqA38lp6UIgz8juxcoQ/formResponse?",
-            data: {"entry.1269989701": field1, "entry.630133937": field2, "entry.1637536722": field3, "entry.1665330657": field4},
-                      type: "POST",
-                      dataType: "xml",
-                      success: function(d)
-            {
-            },
-            error: function(x, y, z)
-              {
-  
-                $('#success-msg').show();
-                $('#form').hide();
+              <!-- Modal body -->
+              <div class="modal-body" style="color:black">
+                <form id="form" target="_self" onsubmit="return post();"  autocomplete="off"> 
+                  <p style="font-size: 18px; text-align: center; padding-bottom: 7px;">Fill in a few details to proceed to download.</p>
+              
+                  <label for="fname">Name</label>
+                  <input type="text"  id="nameField" name="entry.2008660880" placeholder="Your name..">
                 
-              }
-                  });
-                  if(a===true){
-                    document.getElementById('form').style.display="none"
-                    document.getElementById('download').style.display="block"
-                    console.log('hello')
+                  <label for="lname">E-mail</label>
+                  <input type="text" id="emailField" name="entry.1460631936" placeholder="E-mail..">
+                
+                  <label for="country">Phone number</label>
+                  <input type="text" id="mobField" name="entry.904964149" placeholder="Phone Number..">
+                  
+                  <button type="submit" class="btn btn-info" style="margin-left: 190px; margin-top: 11px; margin-bottom: 11px;">Submit</button>
+                </form>
+                <div id="download" style="display: none; ">
+                  <p style="text-align: center; font-size: 18px; padding-bottom: 7px;">Click to download brochure</p>
+                  <a href="BROCHURE.pdf" download>
+                    <button type="button" style="margin-left: 180px ;" class="btn btn-info">Download</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a id="success-msg" href="BROCHURE.pdf" download></a>
+
+        <script>
+          function post() {
+                          var field1 = $("#nameField").val();
+                          var field2 = $("#emailField").val();
+                          var field3 = $("#mobField").val();
+                          var field4 = $("#cinema option:selected").text();
+                          var a=true
+                  if(field1 == ""){
+                    alert('Please Fill Your Name');
+                    document.getElementById("nameField").focus();
+                    a=false
+                    return false;
                   }
-          return false;
-              }
-  </script>
+                  if(field2 == ""){
+                    alert('Please Fill Your Email');
+                    document.getElementById("emailField").focus();
+                    a=false
+                    return false;
+                  }
+                  if(field3 == "" || field3.length > 10 || field3.length < 10){
+                    alert('Please Fill Your Mobile Number');
+                    document.getElementById("mobField").focus();
+                    a=false
+                    return false;
+                  }
+
+                          $.ajax({
+                              url: "https://docs.google.com/forms/d/e/1FAIpQLSfNOrntSNTfveuoSHIEHr9sa8PIAemsqA38lp6UIgz8juxcoQ/formResponse?",
+                    data: {"entry.1269989701": field1, "entry.630133937": field2, "entry.1637536722": field3, "entry.1665330657": field4},
+                              type: "POST",
+                              dataType: "xml",
+                              success: function(d)
+                    {
+                    },
+                    error: function(x, y, z)
+                      {
+          
+                        $('#success-msg').show();
+                        $('#form').hide();
+                        
+                      }
+                          });
+                          if(a===true){
+                            document.getElementById('form').style.display="none"
+                            document.getElementById('download').style.display="block"
+                            console.log('hello')
+                          }
+                  return false;
+                      }
+        </script>
 
         
 
