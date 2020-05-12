@@ -320,11 +320,61 @@
                   </p>
                   <p>WEBSITE : </span> www.wiremesh.co.in</p>
                   <br>
-                  <button type="button" class="btn btn-info"><a href="test.html" style="text-decoration: none; color: white;">Mail Us</a></button>
-            </form>
+                  <!-- <button type="button" class="btn btn-info"><a href="test.html" style="text-decoration: none; color: white;">Mail Us</a></button> -->
+         
+                  <button type="button" class="btn btn-info"  data-toggle="modal" data-target="#emailModal"  >Mail us</button>
+            
+                </form>
+
           </div>
         </div>
       </div>
+      EMail Modal
+      <div class="modal" id="emailModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header" style="color:black">
+              <h4 class="modal-title">Email</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body" style="color:black">
+              <form id="form" target="_self"  action="" autocomplete="off"> 
+                
+                <label for="email">Email</label>
+                <input id="email" type="email" value="wiremeshindia@gmail.com" style="margin-top:40px; font-family: times new roman;font-size: 20px; width:250px; height:30px;border-radius:5px;" readonly ></input><br><br>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject..">
+              
+                <label for="country">Message</label>
+                <input type="text" id="message" name="message" placeholder="Message..">
+    
+                <button type="button" id="send" onclick="send()" class="btn btn-info" style="margin-left: 190px; margin-top: 11px;">Send</button>
+              </form>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <script>
+      function send() {
+        setTimeout(function() {
+          window.open("mailto:" + document.getElementById('email').value + "?subject=" + document.getElementById('subject').value + "&body=" + document.getElementById('message').value);
+        }, 320);
+      }
+      </script>
+
+      
 
     <!-- Footer -->
     <div class="footer" id="footer">
