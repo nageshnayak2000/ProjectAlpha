@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+}
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .motto {
   font-family: "Satisfy", cursive;
   font-size: 10px;
