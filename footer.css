@@ -35,7 +35,10 @@
   display: flex;
 }
 .footer-links {
-  width: 50%;
+  width: 40%;
+}
+.footer-links2 {
+  width: 60%;
 }
 .footer-items p span {
   color: white;
