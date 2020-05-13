@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+}
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .motto {
   font-family: "Satisfy", cursive;
   font-size: 10px;
@@ -14,158 +22,90 @@ header {
   font-size: 55px;
 }
 #test1 {
-  display:none;
-  }
-  
+  display: none;
+}
+
 .img-hover-zoom {
-    height: 300px; /* Modify this according to your need */
-    overflow: hidden; /* Removing this will break the effects */
-  }
+  height: 300px; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+}
 
-  .img-hover-zoom--slowmo img {
-    transform-origin: 50% 65%;
-    transition: transform 5s, filter 3s ease-in-out;
-    filter: brightness(110%);
-  }
-  
+.img-hover-zoom--slowmo img {
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(110%);
+}
+
 /* The Transformation */
-  .img-hover-zoom--slowmo:hover img {
-    filter: brightness(100%);
-    transform: scale(1.2);
-  }
+.img-hover-zoom--slowmo:hover img {
+  filter: brightness(100%);
+  transform: scale(1.2);
+}
 
-  a.bounce:hover{
-    padding-bottom: 20px;
-  }
+a.bounce:hover {
+  padding-bottom: 20px;
+}
 
+/* Responsive Navbar  */
+.rc_nav {
+  overflow: hidden;
+  text-align: center;
+  z-index: 6;
+}
+.rc_nav a {
+  display: inline-block;
+  margin-right: -4px; /* inline-block gap fix */
+  color: black;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: background 0.3s linear;
+  -moz-transition: background 0.3s linear;
+  -ms-transition: background 0.3s linear;
+  -o-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+  z-index: 9;
+}
 
+.rc_nav .icon {
+  display: none;
+}
 
-  /* Responsive Navbar  */
-  .rc_nav {
-    overflow: hidden;
-    text-align: center;
-    z-index: 6;
-  }
+.rc_content {
+  text-align: center;
+  padding-left: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  color: #8e909b;
+}
+
+@media screen and (max-width: 820px) {
   .rc_nav a {
-   display: inline-block;
-   margin-right: -4px;  /* inline-block gap fix */
-   color: black;
-   padding: 15px 15px;
-   text-decoration: none;
-   font-family: Arial, Helvetica, sans-serif;
-   -webkit-transition: background 0.3s linear;
-   -moz-transition: background 0.3s linear;
-   -ms-transition: background 0.3s linear;
-   -o-transition: background 0.3s linear;
-   transition: background 0.3s linear;
-   z-index: 9;
-  }
-  
-  
-  .rc_nav .icon {
     display: none;
   }
-  
-  .rc_content {
-    text-align: center; 
-    padding-left:14px; 
-    font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 100px;  
-    color: #8e909b;
+  .rc_nav a.icon {
+    float: right;
+    display: block;
+    width: 60px;
   }
-  
-  
-  @media screen and (max-width: 820px) {
-    .rc_nav a {display: none;}
-    .rc_nav a.icon {
-      float: right;
-      display: block;
-      width: 60px;
-    }
+}
+
+@media screen and (max-width: 820px) {
+  .rc_nav.responsive {
+    position: relative;
+    top: 10px;
   }
-  
-  @media screen and (max-width: 820px) {
-    .rc_nav.responsive {position: relative; top: 10px;}
-    .rc_nav.responsive .icon {
-      float: right;
-      display: block;
-    }
-    .rc_nav.responsive a {
-      float: none;
-      display: block;
-      text-align: center;
-    }
-  
+  .rc_nav.responsive .icon {
+    float: right;
+    display: block;
   }
+  .rc_nav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
 /* Responsive Navbar ends */
-
-/* .brands {
-    width: 100%;
-    padding-top: 90px;
-    padding-bottom: 90px
-}
-
-.brands_slider_container {
-    height: auto;
-    border: solid 1px #e8e8e8;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-    padding-left: 97px;
-    padding-right: 97px;
-    max-width: 100%;
-    margin: 100%;
-}
-
-.brands_slider {
-    height: auto;
-    max-width: 100%;
-    margin-top: 50px
-}
-
-.brands_item {
-    height: 100%
-}
-
-.brands_item img {
-    max-width: 100%
-}
-
-.brands_nav {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 5px;
-    cursor: pointer
-}
-
-.brands_nav i {
-    color: #e5e5e5;
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease
-}
-
-.brands_nav:hover i {
-    color: #676767
-}
-
-.brands_prev {
-    left: 40px
-}
-
-.brands_next {
-    right: 40px
-}
-
-* {
-    box-sizing: border-box;
-  } */
-
 
 /* Slider */
 
@@ -177,105 +117,88 @@ header {
   width: 100%;
 }
 
-.slick-slider
-{
+.slick-slider {
   position: relative;
   display: block;
   box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   -webkit-touch-callout: none;
   -khtml-user-select: none;
   -ms-touch-action: pan-y;
-      touch-action: pan-y;
+  touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
 }
 
-.slick-list
-{
+.slick-list {
   position: relative;
   display: block;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
-.slick-list:focus
-{
+.slick-list:focus {
   outline: none;
 }
-.slick-list.dragging
-{
+.slick-list.dragging {
   cursor: pointer;
   cursor: hand;
 }
 
 .slick-slider .slick-track,
-.slick-slider .slick-list
-{
+.slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
-     -moz-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-       -o-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
-.slick-track
-{
+.slick-track {
   position: relative;
   top: 0;
   left: 0;
   display: block;
 }
 .slick-track:before,
-.slick-track:after
-{
+.slick-track:after {
   display: table;
-  content: '';
+  content: "";
 }
-.slick-track:after
-{
+.slick-track:after {
   clear: both;
 }
-.slick-loading .slick-track
-{
+.slick-loading .slick-track {
   visibility: hidden;
 }
 
-.slick-slide
-{
+.slick-slide {
   display: none;
   float: left;
   height: 100%;
   min-height: 1px;
 }
-[dir='rtl'] .slick-slide
-{
+[dir="rtl"] .slick-slide {
   float: right;
 }
-.slick-slide img
-{
+.slick-slide img {
   display: block;
 }
-.slick-slide.slick-loading img
-{
+.slick-slide.slick-loading img {
   display: none;
 }
-.slick-slide.dragging img
-{
+.slick-slide.dragging img {
   pointer-events: none;
 }
-.slick-initialized .slick-slide
-{
+.slick-initialized .slick-slide {
   display: block;
 }
-.slick-loading .slick-slide
-{
+.slick-loading .slick-slide {
   visibility: hidden;
 }
-.slick-vertical .slick-slide
-{
+.slick-vertical .slick-slide {
   display: block;
   height: auto;
   border: 1px solid transparent;
@@ -284,39 +207,39 @@ header {
   display: none;
 }
 
-  /* Style the container/contact section */
-  #contact {
-    border-radius: 5px;
-    background-color:white;
-    padding: 10px;
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    #contact .column {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+/* Style the container/contact section */
+#contact {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
 
-  
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  #contact .column {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 /* Style inputs */
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -327,7 +250,7 @@ input[type=text], select {
 }
 
 /* Style the submit button */
-input[type=submit] {
+input[type="submit"] {
   width: 100%;
   background-color: lightskyblue;
   color: white;
@@ -339,8 +262,6 @@ input[type=submit] {
 }
 
 /* Add a background color to the submit button on mouse-over */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
-
-  
