@@ -12,7 +12,7 @@ html {
 
 .motto {
   font-family: "Satisfy", cursive;
-  font-size: 10px;
+  font-size: 22px;
   text-align: center;
   text-decoration: none;
   color: black;
@@ -98,11 +98,13 @@ a.bounce:hover {
 @media screen and (max-width: 820px) {
   .rc_nav a {
     display: none;
+    border-bottom: 1px solid lightgrey; 
   }
   .rc_nav a.icon {
     float: right;
     display: block;
     width: 60px;
+    
   }
 }
 
