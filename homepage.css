@@ -25,6 +25,18 @@ header {
   padding-top: 35px;
   font-size: 55px;
 }
+.heading {
+  font-family:"Cormorant Garamond", serif;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 55px;
+}
+.seeall {
+  font-family:"Cormorant Garamond", serif;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 55px;
+}
 #test1 {
   display: none;
 }

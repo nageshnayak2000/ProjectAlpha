@@ -33,7 +33,9 @@
 }
 .box {
   display: flex;
+  flex-wrap: wrap;
 }
+
 .footer-links {
   width: 50%;
 }
