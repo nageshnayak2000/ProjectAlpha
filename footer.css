@@ -37,8 +37,8 @@
 .footer-links {
   width: 40%;
 }
-.footer-links2 {
-  width: 60%;
+.footer-links2 h2{
+  padding-left: 30px;
 }
 .footer-items p span {
   color: white;
