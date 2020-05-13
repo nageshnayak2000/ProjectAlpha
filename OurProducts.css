@@ -1,23 +1,5 @@
-/* .align-items-center {
-  -ms-flex-align: center !important;
-  align-items: center !important;
-}
-.d-flex {
-  display: -ms-flexbox !important;
-  display: flex !important;
-} */
-/* @media screen and (max-width: 900px) {
-  #products {
-    height: 1250px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .products {
-    height: 1250px;
-  }
-} */
 .col-text {
-  height: 20em;
+  height: 25em;
 }
 .grid-flex {
   display: -webkit-box;
