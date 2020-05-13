@@ -35,7 +35,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-
 .footer-links {
   width: 50%;
 }
@@ -51,9 +50,7 @@
   text-align: left;
   font-size: 15px;
   text-decoration: none;
-  display: block;
   padding: 8px;
-  list-style: none;
   padding-left: 0;
   overflow: hidden;
   font-family: sans-serif;
@@ -121,6 +118,9 @@
   .footer .footer-content {
     height: 750px;
   }
+  .footer-links {
+    width: 50%;
+  }
 }
 /*phone done*/
 @media screen and (max-width: 500px) {
@@ -128,10 +128,10 @@
     width: 100%;
   }
   .footer {
-    height: 1000px;
+    height: 1100px;
   }
   .footer .footer-content {
-    height: 1000px;
+    height: 1100px;
   }
   .footer-links {
     width: 100%;
