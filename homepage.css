@@ -10,9 +10,13 @@
 header {
   font-family: "Cormorant Garamond", serif;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 35px;
   font-size: 55px;
 }
+#test1 {
+  display:none;
+  }
+  
 .img-hover-zoom {
     height: 300px; /* Modify this according to your need */
     overflow: hidden; /* Removing this will break the effects */
