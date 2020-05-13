@@ -94,6 +94,12 @@
   .footer .footer-content {
     height: 460px;
   }
+  .footer-links{
+    width: 45%;
+  }
+  .footer-links2{
+    width: 45%;
+  }
 }
 /*done*/
 @media screen and (max-width: 900px) {
@@ -106,6 +112,13 @@
   .footer .footer-content {
     height: 470px;
   }
+  .footer-links{
+    width: 45%;
+  }
+  .footer-links2{
+    width: 55%;
+  }
+  
 }
 /*phone done*/
 @media screen and (max-width: 850px) {
@@ -119,11 +132,14 @@
     height: 750px;
   }
   .footer-links {
-    width: 50%;
+    width: 45%;
+  }
+  .footer-links2{
+    width: 55%;
   }
 }
 /*phone done*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .footer-items {
     width: 100%;
   }
@@ -141,7 +157,28 @@
   }
   
 }
-/*stops working at 355px*/
+@media screen and (max-width: 450px) {
+  .footer-items {
+    width: 100%;
+  }
+  .footer {
+    height: 1200px;
+  }
+  .footer .footer-content {
+    height: 1200px;
+  }
+  .footer-links {
+    width: 100%;
+  }
+  .footer-links2 {
+    width: 100%;
+  }
+  .footer-items h2 {
+    padding-left: 15px;
+  }
+  
+}
+/*stops working at 320px*/
 
 /*social icons*/
 .fa {
