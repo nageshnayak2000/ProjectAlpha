@@ -35,9 +35,9 @@
   display: flex;
 }
 .footer-links {
-  width: 40%;
+  width: 50%;
 }
-.footer-links2 h2{
+.footer-items h2{
   padding-left: 30px;
 }
 .footer-items p span {
