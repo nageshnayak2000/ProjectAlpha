@@ -86,8 +86,12 @@
     }
     
     @media screen and (max-width: 820px) {
-      .rc_nav.responsive {position: relative; top: 10px;}
+      .rc_nav.responsive {
+        position: relative;
+        top: 10px;
+      }
       .rc_nav.responsive .icon {
+        position: absolute;
         float: right;
         display: block;
       }
@@ -96,7 +100,6 @@
         display: block;
         text-align: center;
       }
-    
     }
   /* Responsive Navbar ends */
 
