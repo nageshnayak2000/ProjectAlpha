@@ -100,6 +100,10 @@
     }
   /* Responsive Navbar ends */
 
+
+
+
+  /*FOOTERRR*/
   .footer {
     background: black;
     color: white;
@@ -152,6 +156,10 @@
   }
   .footer-links2 {
     width: 65%;
+  }
+  .footer-items p span {
+    color: white;
+    font-weight: bold;
   }
   .footer-links2 p span {
     color: white;
