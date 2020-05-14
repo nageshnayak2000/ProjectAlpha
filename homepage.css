@@ -29,6 +29,8 @@ header {
   font-family:charlie;
   text-align: center;
   padding-top: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 55px;
 }
 .seeall {
