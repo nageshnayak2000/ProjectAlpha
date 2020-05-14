@@ -1,10 +1,7 @@
 body{
             background: white;
         }
-@font-face{
-          src: url(fonts/Charlie\ Brown\ M54.ttf);
-          font-family: charlie;
-        }
+
 .btn.btn-danger:hover{
     background-color: black;
 

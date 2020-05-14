@@ -1,3 +1,7 @@
+@font-face{
+  src: url(fonts/Charlie\ Brown\ M54.ttf);
+  font-family: charlie;
+}
 .motto {
     font-family: "Satisfy", cursive;
     font-size: 10px;
@@ -8,7 +12,7 @@
   }
   /* The Heading */
   header {
-    font-family: "Cormorant Garamond", serif;
+    font-family: charlie;
     text-align: center;
     padding-top: 35px;
     font-size: 55px;
