@@ -16,19 +16,42 @@
     <div id="wrapper">
         <!-- Header Name -->
         <header>
-          MAHAVEERA INDUSTRIES
+          <img
+            src="400dpiLogoCropped.jpg"
+            alt="logo"
+            style="width: 110px; height: 90px;"
+          />
+          <i>MAHAVEERA INDUSTRIES</i>
         </header>
         <!-- NavBar -->
         <div class="rc_nav" id="centered_nav">
-          <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+          <a
+            href="javascript:void(0);"
+            title="Menu"
+            style="font-size: 18px;"
+            class="icon"
+            onclick="myFunction()"
+            >&#9776;</a
+          >
           <a href="index.html">Home</a>
           <a href="#">Products</a>
-          <a href="#">Clientel</a>
+          <!-- <a href="#">Clientel</a> -->
           <a href="#">Quality Control</a>
-          <a href="#">Contact Us</a>
-          <a href="#footer">Catalogue</a>
-          
+          <a href="#contactus" class="scrollLink2">Contact Us</a>
+          <a href="#footer" class="scrollLink">Brochure</a>
+          <script>
+            $(document).ready(function () {
+              $("a.scrollLink").click(function (event) {
+                event.preventDefault();
+                $("html, body").animate(
+                  { scrollTop: $($(this).attr("href")).offset().top },
+                  2000
+                );
+              });
+            });
+          </script>
         </div>
+      </div>    
 
     <section class="team-area">
         <div class="container">
