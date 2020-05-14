@@ -107,7 +107,7 @@
   .footer {
     background: black;
     color: white;
-    height: 420px;
+    height: 500px;
     position: relative;
     bottom: 0px;
     padding-left: 20px;
@@ -118,7 +118,7 @@
   .footer .footer-content {
     background: black;
     color: brown;
-    height: 420px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -170,9 +170,7 @@
     text-align: left;
     font-size: 15px;
     text-decoration: none;
-    display: block;
     padding: 8px;
-    list-style: none;
     padding-left: 0;
     overflow: hidden;
     font-family: sans-serif;
