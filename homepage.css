@@ -19,12 +19,25 @@ html {
   padding: 4px;
 }
 /* The Heading */
-header {
+.header {
   font-family: charlie;
   text-align: center;
   padding-top: 35px;
-  font-size: 53px;
+  /* font-size: 53px; */
 }
+
+@media screen and (min-width: 601px) {
+  div.header {
+    font-size: 53px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.header {
+    font-size: 40px;
+  }
+}
+
 .heading {
   font-family:charlie;
   text-align: center;
