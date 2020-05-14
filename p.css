@@ -1,10 +1,20 @@
-/* body{
-            background: #262626;
-        } */
-
+body{
+            background: white;
+        }
+@font-face{
+          src: url(fonts/Charlie\ Brown\ M54.ttf);
+          font-family: charlie;
+        }
 .btn.btn-danger:hover{
     background-color: black;
 
+}
+
+header {
+  font-family: charlie;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 53px;
 }
 
 
@@ -18,18 +28,17 @@
             margin-bottom: 50px;
             text-transform: uppercase;
             font-size: 35px;
-            font-family: bignoodletitling;
-            letter-spacing: 5px;
+            letter-spacing: 3 px;
         }
 
 .team-area .card {
     border:none;
-    background: #ffffff;
+    background: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .img-area{
-    width: 312px;
+    width: 309px;
     height: 190px;
     /* display: inline-block; */
     overflow: hidden;
@@ -90,20 +99,15 @@ h4 {
     font-size: 25px;
 }
 p{
-    font-family: Merienda;
+    font-family: sans-serif;
 }
 
 .side-one .card .card-body img {
-    width: 320px;
+    width: 307px;
     height: 170px;
     /* border-radius: 50%; */
 }
-header {
-    font-family: "Cormorant Garamond", serif;
-    text-align: center;
-    padding-top: 35px;
-    font-size: 55px;
-  }
+
   /* Responsive Navbar  */
   .rc_nav {
     overflow: hidden;
