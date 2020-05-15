@@ -1,0 +1,158 @@
+body{
+            background: white;
+        }
+
+.btn.btn-danger:hover{
+    background-color: black;
+
+}
+
+
+        .team-area{
+    padding: 60px 0;
+}
+
+        .section-heading {
+            text-align: center;
+            color: black;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            font-size: 35px;
+            letter-spacing: 3 px;
+        }
+
+.team-area .card {
+    border:none;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.img-area{
+    width: 309px;
+    height: 190px;
+    /* display: inline-block; */
+    overflow: hidden;
+    /* border-radius: 50%; */
+}
+.team-single:hover .side-two {
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.team-single:hover .side-one {
+    transform: rotateY(180deg);
+}
+
+.content-area {
+    transform: perspective(1000px);
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.side-one {
+    position: relative;
+    transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.side-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    transform: rotateY(-180deg);
+}
+
+.side-one,
+.side-two {
+    backface-visibility: hidden;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.side-one .card,
+.side-two .card {
+    min-height: 312px;
+}
+
+.side-two .card a {
+    font-size: 18px;
+    color: black;
+}
+
+h4 {
+    color:black;
+    font-family: BigNoodleTitling;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+p{
+    font-family: sans-serif;
+}
+
+.side-one .card .card-body img {
+    width: 307px;
+    height: 170px;
+    /* border-radius: 50%; */
+}
+
+  /* Responsive Navbar  */
+  .rc_nav {
+    overflow: hidden;
+    text-align: center;
+    z-index: 6;
+  }
+  .rc_nav a {
+   display: inline-block;
+   margin-right: -4px;  /* inline-block gap fix */
+   color: black;
+   padding: 15px 15px;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   -webkit-transition: background 0.3s linear;
+   -moz-transition: background 0.3s linear;
+   -ms-transition: background 0.3s linear;
+   -o-transition: background 0.3s linear;
+   transition: background 0.3s linear;
+   z-index: 9;
+  }
+  
+  
+  .rc_nav .icon {
+    display: none;
+  }
+  
+  .rc_content {
+    text-align: center; 
+    padding-left:14px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 100px;  
+    color: #8e909b;
+  }
+  
+  
+  @media screen and (max-width: 820px) {
+    .rc_nav a {display: none;}
+    .rc_nav a.icon {
+      float: right;
+      display: block;
+      width: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 820px) {
+    .rc_nav.responsive {position: relative; top: 10px;}
+    .rc_nav.responsive .icon {
+      float: right;
+      display: block;
+    }
+    .rc_nav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  
+  }
+/* Responsive Navbar ends */
