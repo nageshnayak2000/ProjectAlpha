@@ -2,7 +2,7 @@
 /* prettier-ignore */
 @font-face {
   src: url(fonts/Charlie\ Brown\ M54.ttf);
-  font-family: charlie;
+  font-family: char;
 }
 body {
   margin: 0 auto;
@@ -20,22 +20,10 @@ html {
 }
 /* The Heading */
 .header {
-  font-family: charlie;
+  font-family: char;
   text-align: center;
   padding-top: 35px;
-  /* font-size: 53px; */
-}
-
-@media screen and (min-width: 601px) {
-  div.header {
-    font-size: 47px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.header {
-    font-size: 40px;
-  }
+  font-size: 53px; 
 }
 
 .heading {
