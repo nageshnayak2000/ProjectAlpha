@@ -50,6 +50,7 @@
     .rc_nav a {
      display: inline-block;
      margin-right: -4px;  /* inline-block gap fix */
+     font-size: 16px;
      color: black;
      padding: 15px 15px;
      text-decoration: none;
