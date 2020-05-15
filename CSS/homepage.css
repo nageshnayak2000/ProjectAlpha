@@ -1,8 +1,8 @@
 /*for header font*/
 /* prettier-ignore */
 @font-face {
-  src: url(fonts/Charlie\ Brown\ M54.ttf);
-  font-family: char;
+  src: url(../fonts/Charlie\ Brown\ M54.ttf);
+  font-family: charlie;
 }
 body {
   margin: 0 auto;
@@ -20,7 +20,7 @@ html {
 }
 /* The Heading */
 .header {
-  font-family: char;
+  font-family: charlie;
   text-align: center;
   padding-top: 35px;
   font-size: 53px; 
