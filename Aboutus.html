@@ -54,10 +54,63 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="CSS/homepage.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
   </head>
 
   <body>
-    <div class="container">
+    <div id="wrapper">
+      <!-- Header Name -->
+      <div class="header">
+        <img
+          src="Images/400dpiLogoCropped.jpg"
+          alt="logo"
+          style="width: 110px; height: 90px;"
+        />
+        <i>MAHAVEERA INDUSTRIES</i>
+      </div>
+      <!-- NavBar -->
+      <div class="rc_nav" id="centered_nav">
+        <a
+          href="javascript:void(0);"
+          title="Menu"
+          style="font-size: 18px;"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+        <a href="index.html" style="font-weight: bold;">Home</a>
+        <a href="#">Products</a>
+        <!-- <a href="#">Clientel</a> -->
+        <a href="#">Quality Control</a>
+        <a href="#contactus" class="scrollLink2">Contact Us</a>
+        <a href="#footer" class="scrollLink">Brochure</a>
+        <script>
+          $(document).ready(function () {
+            $("a.scrollLink").click(function (event) {
+              event.preventDefault();
+              $("html, body").animate(
+                { scrollTop: $($(this).attr("href")).offset().top },
+                2000
+              );
+            });
+          });
+        </script>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("centered_nav");
+        if (x.className === "rc_nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "rc_nav";
+        }
+      }
+    </script>
+    <!-- NavBar Ends-->
+
+    <!--<div class="container">
       <div class="row">
         <div class="col-md-7" style="margin-top: 70px; margin: auto;">
           <h1
@@ -98,6 +151,213 @@
           </p>
         </div>
       </div>
+    </div>-->
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+      <div class="footer-content">
+        <div class="footer-items">
+          <h1 class="logo-text">About us</h1>
+          <p>
+            <span>Mahaveera Industries</span> is one of the largest
+            manufacturers and suppliers of Industrial Wire Cloth and Screen
+            Meshes in India. The Company has re-organised and updated its
+            manufacturing capacity to include the most modern methods and
+            equipment across the entire range of woven wire specifications.
+          </p>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-rss"></a><br /><br />
+          <p><span>Download Our Brochure :</span></p>
+          <button
+            type="button"
+            class="btn btn-info"
+            style="font-size: 15px;"
+            d="brochure"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+            <i class="fa fa-file-pdf-o"></i>Brochure
+          </button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header" style="color: black;">
+                <h4 class="modal-title">Form</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" style="color: black;">
+                <form
+                  id="form"
+                  target="_self"
+                  onsubmit="return post();"
+                  autocomplete="off"
+                >
+                  <p
+                    style="
+                      font-size: 18px;
+                      text-align: center;
+                      padding-bottom: 7px;
+                    "
+                  >
+                    Fill in a few details to proceed to download.
+                  </p>
+
+                  <label for="fname">Name</label>
+                  <input
+                    type="text"
+                    id="nameField"
+                    name="entry.2008660880"
+                    placeholder="Your name.."
+                  />
+
+                  <label for="lname">E-mail</label>
+                  <input
+                    type="text"
+                    id="emailField"
+                    name="entry.1460631936"
+                    placeholder="E-mail.."
+                  />
+
+                  <label for="country">Phone number</label>
+                  <input
+                    type="text"
+                    id="mobField"
+                    name="entry.904964149"
+                    placeholder="Phone Number.."
+                  />
+
+                  <button
+                    type="submit"
+                    class="btn btn-info"
+                    style="
+                      margin-left: 190px;
+                      margin-top: 11px;
+                      margin-bottom: 11px;
+                    "
+                  >
+                    Submit
+                  </button>
+                </form>
+                <div id="download" style="display: none;">
+                  <p
+                    style="
+                      text-align: center;
+                      font-size: 18px;
+                      padding-bottom: 7px;
+                    "
+                  >
+                    Click to download brochure
+                  </p>
+                  <a href="BROCHURE.pdf" download>
+                    <button
+                      type="button"
+                      style="margin-left: 180px;"
+                      class="btn btn-info"
+                    >
+                      Download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a id="success-msg" href="BROCHURE.pdf" download></a>
+
+        <script>
+          function post() {
+            var field1 = $("#nameField").val();
+            var field2 = $("#emailField").val();
+            var field3 = $("#mobField").val();
+            var field4 = $("#cinema option:selected").text();
+            var a = true;
+            if (field1 == "") {
+              alert("Please Fill Your Name");
+              document.getElementById("nameField").focus();
+              a = false;
+              return false;
+            }
+            if (field2 == "") {
+              alert("Please Fill Your Email");
+              document.getElementById("emailField").focus();
+              a = false;
+              return false;
+            }
+            if (field3 == "" || field3.length > 10 || field3.length < 10) {
+              alert("Please Fill Your Mobile Number");
+              document.getElementById("mobField").focus();
+              a = false;
+              return false;
+            }
+
+            $.ajax({
+              url:
+                "https://docs.google.com/forms/d/e/1FAIpQLSfNOrntSNTfveuoSHIEHr9sa8PIAemsqA38lp6UIgz8juxcoQ/formResponse?",
+              data: {
+                "entry.1269989701": field1,
+                "entry.630133937": field2,
+                "entry.1637536722": field3,
+                "entry.1665330657": field4,
+              },
+              type: "POST",
+              dataType: "xml",
+              success: function (d) {},
+              error: function (x, y, z) {
+                $("#success-msg").show();
+                $("#form").hide();
+              },
+            });
+            if (a === true) {
+              document.getElementById("form").style.display = "none";
+              document.getElementById("download").style.display = "block";
+              console.log("hello");
+            }
+            return false;
+          }
+        </script>
+
+        <div class="footer-items">
+          <div class="box">
+            <div class="footer-links">
+              <h2>Quick Links</h2>
+              <br />
+              <ul>
+                <a href="#"><li>HOME</li></a>
+                <a href="#"><li>ABOUT US</li></a>
+                <!-- <a href="#"><li>CLIENTEL</li></a> -->
+                <a href="#"><li>PRODUCTS</li></a>
+                <a href="#"><li>QUALITY CONTROL</li></a>
+                <a href="gform.html"><li>CONTACT US</li></a>
+              </ul>
+            </div>
+            <div class="footer-links2">
+              <h2>Our Products</h2>
+              <br />
+              <ul>
+                <a href="#"><li>PERFORATED SHEET</li></a>
+                <a href="#"><li>SQUARE MESH</li></a>
+                <a href="#"><li>INDUSTRIAL HEAVY SCREEN</li></a>
+                <a href="#"><li>CHAINLINK FENCING</li></a>
+                <a href="#"><li>VIBRATING SCREEN</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        @ blah blah | Designed by us
+      </div>
     </div>
+    <!-- Footer Ends -->
+
   </body>
 </html>
