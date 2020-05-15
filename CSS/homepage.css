@@ -72,6 +72,7 @@ a.bounce:hover {
 }
 .rc_nav a {
   display: inline-block;
+  font-size: 18px;
   margin-right: -4px; /* inline-block gap fix */
   color: black;
   padding: 15px 15px;
