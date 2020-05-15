@@ -431,3 +431,30 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+
+/*sliderrrrr*/
+
+.object{
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	display: table;
+}
+
+h1{
+	margin: 0;
+	color: #eee;
+	font-family: sans-serif;
+	font-size: 50px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.one{
+	background-image: url('VS.jpg');
+}
