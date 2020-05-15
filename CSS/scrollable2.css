@@ -30,7 +30,6 @@ body {
   vertical-align: middle;
   font-weight: bolder;
   font-size: 50px;
-  
 }
 
 .scroll-bg {
@@ -42,5 +41,5 @@ body {
 /* first section */
 
 .bg-1 {
-  background-image: url("op-wall.jpg");
+  background-image: url("../Images2/op-wall.jpg");
 }
