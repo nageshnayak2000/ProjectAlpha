@@ -12,8 +12,8 @@
   flex-grow: 1;
   flex-direction: row;
   -webkit-flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -webkit-justify-content: space-around;
+  /* -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around; */
 }
 .col {
   -webkit-box-flex: 1;
