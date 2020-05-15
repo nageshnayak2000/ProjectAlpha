@@ -179,7 +179,7 @@ a.bounce:hover {
 /*copyright*/
 .footer .footer-bottom {
   background: black;
-  color: brown;
+  color: white;
   height: 50px;
   width: 100%;
   overflow: hidden;
@@ -188,7 +188,7 @@ a.bounce:hover {
   bottom: 0px;
   left: 0px;
   padding-top: 10px;
-  font-size: 25px;
+  font-size: 13px;
 }
 
 /*medium screen done*/
