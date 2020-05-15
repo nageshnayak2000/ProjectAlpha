@@ -1,14 +1,14 @@
 /*for header font*/
+/* prettier-ignore */
 @font-face {
   src: url(fonts/Charlie\ Brown\ M54.ttf);
   font-family: charlie;
 }
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 html {
-  width: 100vw;
-  overflow-x: hidden;
+  width: 100%;
 }
 .motto {
   font-family: "Satisfy", cursive;
@@ -39,7 +39,7 @@ html {
 }
 
 .heading {
-  font-family:charlie;
+  font-family: charlie;
   text-align: center;
   padding-top: 35px;
   padding-left: 10px;
@@ -47,7 +47,7 @@ html {
   font-size: 55px;
 }
 .seeall {
-  font-family:"Cormorant Garamond", serif;
+  font-family: "Cormorant Garamond", serif;
   text-align: center;
   padding-top: 35px;
   font-size: 55px;
@@ -118,7 +118,6 @@ a.bounce:hover {
     float: right;
     display: block;
     width: 60px;
-    
   }
 }
 
