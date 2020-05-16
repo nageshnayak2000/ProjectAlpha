@@ -28,10 +28,10 @@ body{
 
 }
 .img-area{
-    width: 309px;
+    min-width: 309px;
     height: 190px;
     /* display: inline-block; */
-    overflow: hidden;
+    /* overflow: hidden; */
     /* border-radius: 50%; */
 }
 .team-single:hover .side-two {
