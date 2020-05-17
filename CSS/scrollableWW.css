@@ -6,7 +6,7 @@ body {
 }
 
 .wrapper {
-  height: 100%;
+  height: 650px;
   font-family: "Cormorant Garamond", sans-serif;
   line-height: 1.5;
   word-spacing: 4px;
@@ -18,7 +18,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 650px ;
+  height: 550px ;
   width: 100%;
   color: white;
   text-align: center;
@@ -41,5 +41,5 @@ body {
 /* first section */
 
 .bg-1 {
-  background-image: url("../Images/weldedmetalwall.png");
+  background-image: url("../Images/squareee.jpg");
 }
